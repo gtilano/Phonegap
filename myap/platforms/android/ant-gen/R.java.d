@@ -6,4 +6,9 @@ C:\Users\Administrador.Lenovo-PC\Documents\GitHub\Phonegap\myap\platforms\androi
 C:\Users\Administrador.Lenovo-PC\Documents\GitHub\Phonegap\myap\platforms\android\res\drawable-xhdpi\icon.png \
 C:\Users\Administrador.Lenovo-PC\Documents\GitHub\Phonegap\myap\platforms\android\res\values\strings.xml \
 C:\Users\Administrador.Lenovo-PC\Documents\GitHub\Phonegap\myap\platforms\android\res\xml\config.xml \
+C:\Users\Administrador.Lenovo-PC\Documents\GitHub\Phonegap\myap\platforms\android\ant-build\res\drawable\icon.png \
+C:\Users\Administrador.Lenovo-PC\Documents\GitHub\Phonegap\myap\platforms\android\ant-build\res\drawable-hdpi\icon.png \
+C:\Users\Administrador.Lenovo-PC\Documents\GitHub\Phonegap\myap\platforms\android\ant-build\res\drawable-ldpi\icon.png \
+C:\Users\Administrador.Lenovo-PC\Documents\GitHub\Phonegap\myap\platforms\android\ant-build\res\drawable-mdpi\icon.png \
+C:\Users\Administrador.Lenovo-PC\Documents\GitHub\Phonegap\myap\platforms\android\ant-build\res\drawable-xhdpi\icon.png \
 C:\Users\Administrador.Lenovo-PC\Documents\GitHub\Phonegap\myap\platforms\android\ant-build\AndroidManifest.xml \
