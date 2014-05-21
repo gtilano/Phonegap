@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>MARCA.COM.CO</title>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		
+		<!-- FontAwesome - http://fortawesome.github.io/Font-Awesome/ -->
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+
+		<!-- jQueryMobileCSS - original without styling -->
+        <link rel="stylesheet" href="css/jquerymobile.css" />
+
+		<!-- nativeDroid core CSS -->
+        <link rel="stylesheet" href="css/jquerymobile.nativedroid.css" />
+
+		<!-- nativeDroid: Light/Dark -->
+        <link rel="stylesheet" href="css/jquerymobile.nativedroid.dark.css"  id='jQMnDTheme' />
+
+		<!-- nativeDroid: Color Schemes -->
+        <link rel="stylesheet" href="css/jquerymobile.nativedroid.color.green.css" id='jQMnDColor' />
+
+		<!-- jQuery / jQueryMobile Scripts -->
+		<script src="js/jquery-1.9.1.min.js"></script>
+        <script src="js/jquery.mobile-1.3.1.min.js"></script>
+
+
+    </head>
+    <body>
+        
+    <div data-role="page" data-theme='b'>
+
+
+        <div data-role="header" data-position="fixed" data-tap-toggle="false" data-theme='b'>
+            <a href="index.html" data-ajax="false"><i class='icon-ellipsis-vertical'></i></a>
+            <h1>Contáctenos</h1>
+        </div>
+        
+        <div data-role="content">   
+
+			    
+            <form>
+                <ul data-role="listview" data-inset="true">
+        
+                    <li data-role="fieldcontain">
+                        <fieldset data-role="controlgroup">
+                            <legend>Donde nos conociste?</legend>
+                            <input type="checkbox" name="checkbox-1a" id="checkbox-1ab" checked="">
+                            <label for="checkbox-1ab">Por un amigo</label>
+                            <input type="checkbox" name="checkbox-2a" id="checkbox-2ab">
+                            <label for="checkbox-2ab">Otra página</label>
+                            <input type="checkbox" name="checkbox-3a" id="checkbox-3ab">
+                            <label for="checkbox-3ab">Emisora</label>
+                            <input type="checkbox" name="checkbox-4a" id="checkbox-4ab">
+                            <label for="checkbox-4ab">Periódico</label>
+                        </fieldset>
+                    </li>
+                    
+                    
+                    
+                    <li data-role="fieldcontain">
+                        <label for="name2b">Nombre:</label>
+                        <input type="text" name="name2" id="name2b" value="" data-clear-btn="true" placeholder="Escribe tu nombre aqui...">
+                    </li>
+                    
+                    <li data-role="fieldcontain">
+                        <label for="inputEmail">Escribe tu email:</label>
+                        <input type="email" name="inputEmail" id="inputEmail" value="" data-clear-btn="true" placeholder="">
+                    </li>
+         
+
+                    <li data-role="fieldcontain">
+                        <label for="textarea2b">Comentario:</label>
+                    <textarea cols="40" rows="8" name="textarea2" id="textarea2b" placeholder="Déjanos tu comentario"></textarea>
+                    </li>
+                    <li data-role="fieldcontain">
+                        <label for="flip2b">Desas ser contactado por nosotros?</label>
+                        <select name="flip2" id="flip2b" data-role="slider">
+                            <option value="off">No</option>
+                            <option value="on">Si</option>
+                        </select>
+                    </li>
+                    
+                    <li>
+                        <fieldset class="ui-grid-a">
+                                <div class="ui-block-a"><button type="submit" data-theme="b">Cancelar</button></div>
+                                <div class="ui-block-b"><button type="submit" data-theme="b">Enviar</button></div>
+                        </fieldset>
+                    </li>
+                </ul>
+            </form>
+	       
+	        
+        </div>
+
+    </div>
+    
+    </body>
+</html>
